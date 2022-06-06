@@ -5,31 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
       rel="stylesheet"
     />
-
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-
-    
   </head>
+
   <body>
     <div class="container">
       <!-- Upper Row-->
-    <body>
-    <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <h1 class="heading-1">Weather App</h1>
@@ -42,7 +35,7 @@
                     type="search"
                     class="form-control"
                     id="search-input"
-                    placeholder="Type a city name..."
+                    placeholder="Type your city..."
                   />
                   <input
                     type="submit"
@@ -52,7 +45,7 @@
                   <button
                     class="btn btn-outline-secondary d-inline-flex align-items-center location"
                   >
-                    <i class="material-icons me-2">my_location</i> My location
+                    <i class="material-icons me-2"></i> My location
                   </button>
                 </div>
               </div>
@@ -92,16 +85,12 @@
                 <li>Humidity: <span id="humidity"></span></li>
               </ul>
             </div>
-          </div>
+          
           <div class="weather-forecast" id="forecast">
             <div class="row">
               <div class="col-2">
                 <div class="weather-forecast-day">Thu</div>
-                <img
-                  class="icon"
-                  src="images/sunflower.png"
-                  alt=""
-                />
+                
                 <div class="weather-forecast-temperature">
                   <span class="weather-forecast-temp-max">18°</span>
                   <span class="weather-forecast-temp-min">10°</span>
@@ -123,26 +112,19 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     >Open-source code</a
-                  >
-                  by Khrystyna Khoryniak
+                  > by KK
                 </span>
               </div>
 
-              <div class="col text-end">
-                  <a
-                    href="https://www.instagram.com/trisha.khrnk/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="social-icons fa-brands fa-instagram"></i
-                  ></a>
-                </span>
+              
               </div>
             </div>
           </small>
         </div>
+        </div>
       </div>
     </div>
+  
     <script src="src/script.js"></script>
   </body>
 </html>
