@@ -1,0 +1,169 @@
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #132743;
+  background: #407088;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px 60px 30px;
+  background-color: hsl(0, 100%, 90%);
+  border-radius: 10px;
+  border: 4px solid #ffb5b5;
+  box-shadow: 5px 5px 10px rgba(172, 220, 238, 0.5);
+}
+
+/******* Upper row ********/
+
+.searchbar {
+  margin-bottom: 50px;
+}
+
+#search-city {
+  box-shadow: 5px 5px 10px, #132743(0, 0, 0, 0.3);
+}
+
+#search-city::placeholder {
+  opacity: 0.5;
+}
+
+.search-button {
+  margin: 1px -10px;
+  background-color: #407088;
+  border: 1px solid #132743;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-button:hover {
+  background-color: #1196c7;
+  border: 1px solid #1196c7;
+}
+
+.form-container {
+  padding-right: 0;
+}
+.location-container {
+  padding-left: 0;
+}
+
+.location-button {
+  margin-left: 0;
+}
+
+#time {
+  padding: 5px 0;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+/******* Medium row ********/
+
+#current-city {
+  margin-bottom: 0;
+  font-size: 36px;
+  line-height: 1;
+  color: #407088;
+}
+
+#current-temp {
+  display: inline-block;
+  width: 30px;
+  color: #407088;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.units {
+  margin-left: 15px;
+}
+
+.units a {
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 300;
+  color: #132743;
+}
+
+.divider.switch {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  line-height: 1.6;
+}
+
+.weather-conditions {
+  padding-bottom: 10px;
+  font-size: 18px;
+  color: #132743;
+}
+
+.weather-img {
+  margin-top: -30px;
+  border-radius: 4px;
+  box-shadow: 7px 5px 9px, #407088;
+}
+
+.weather-icon {
+  width: 100%;
+}
+
+hr {
+  margin-bottom: -20px;
+  margin-top: 50px;
+  border-top: 1px dotted #ffb5b5;
+}
+
+/******* Bottom row ********/
+.weather-box {
+  margin-top: 60px;
+  padding: 5px 0;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 15px #407088;
+}
+
+.weather-icon-sm {
+  width: 35%;
+  margin: 10px 0;
+}
+
+.day {
+  color: #fc7979;
+}
+
+.date {
+  color: #407088;
+}
+
+.focus {
+  color: #407088;
+}
+.temp-range {
+  color: #407088;
+}
+
+.divider {
+  color: #fc7979;
+  opacity: 0.6;
+}
+
+.footer {
+  margin-bottom: 0;
+  padding-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
